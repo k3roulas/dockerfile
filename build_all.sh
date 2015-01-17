@@ -11,6 +11,8 @@ docker build -t gezpage/rails rails
 docker build -t gezpage/redis redis
 docker build -t gezpage/symfony2:5.3 symfony2.php53
 docker build -t gezpage/symfony2:5.5 symfony2.php55
+docker build -t k3roulas/ubuntu14 ubuntu14
+docker build -t k3roulas/meteor meteor
 
 echo "Cleaning old containers"
 docker rm `docker ps -a -q`
